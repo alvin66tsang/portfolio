@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3fa77ef1.css",
-    "main.js": "/portfolio/static/js/main.06d016d2.js",
+    "main.js": "/portfolio/static/js/main.8a94775b.js",
     "static/media/backgroundImg.jpg": "/portfolio/static/media/backgroundImg.4e0f1388d9b6d87d0b1f.jpg",
     "static/media/d.png": "/portfolio/static/media/d.923e0876cb25fdfd6046.png",
     "static/media/a.png": "/portfolio/static/media/a.27183c5891b2d212e562.png",
     "static/media/e.png": "/portfolio/static/media/e.45c7a9a26ad23b4b932f.png",
+    "static/media/Resume_of_Alvin_Tsang.pdf": "/portfolio/static/media/Resume_of_Alvin_Tsang.1103bcb13c87adb6099e.pdf",
     "static/media/b.png": "/portfolio/static/media/b.068d3130be50c8b59dcf.png",
     "static/media/c.png": "/portfolio/static/media/c.e3b52a30f926bf265b36.png",
-    "static/media/Resume_of_Alvin_Tsang.pdf": "/portfolio/static/media/Resume_of_Alvin_Tsang.9f7a8a3006942b8b5547.pdf",
     "static/media/roboto-latin-500-normal.woff2": "/portfolio/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/portfolio/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/portfolio/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -68,10 +68,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/portfolio/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/portfolio/index.html",
     "main.3fa77ef1.css.map": "/portfolio/static/css/main.3fa77ef1.css.map",
-    "main.06d016d2.js.map": "/portfolio/static/js/main.06d016d2.js.map"
+    "main.8a94775b.js.map": "/portfolio/static/js/main.8a94775b.js.map"
   },
   "entrypoints": [
     "static/css/main.3fa77ef1.css",
-    "static/js/main.06d016d2.js"
+    "static/js/main.8a94775b.js"
   ]
 }
