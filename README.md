@@ -1,6 +1,6 @@
-## A portfolio about myself!
+# A portfolio about myself!
 
-## How to use !!
+# How to use !!
 
 Using NPM: Simply run the below commands.
 # Clone the repository
