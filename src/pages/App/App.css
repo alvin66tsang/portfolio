@@ -2,8 +2,11 @@
 html, body {
     padding: 0;
     margin: 0;
-    scroll-behavior: smooth;
-    scroll-padding-top: 7%;
+    /* scroll-padding-top: 7%; */
+    /* scroll-behavior: smooth; */
+    ::-webkit-scrollbar{
+        display: none;
+    }
 }
 
 .active-scroll-spy {

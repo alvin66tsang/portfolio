@@ -1,4 +1,12 @@
 import { useEffect, useState } from 'react';
+import NavBar from './components/Navbar/navbar'
+import Intro from './components/Intro/intro';
+import About from './components/About/about';
+import Resume from './components/Resume/resumeList'
+import Works from './components/Works/works';
+import Contact from './components/Contact/contact';
+import Footer from './components/Footer/footer';
+import ScrollSpy from "react-ui-scrollspy";
 
 import './App.css';
 import '@fontsource/roboto/300.css';
@@ -8,15 +16,6 @@ import '@fontsource/roboto/700.css';
 
 import "yet-another-react-lightbox/styles.css";
 
-import NavBar from './components/Navbar/navbar'
-import Intro from './components/Intro/intro';
-import About from './components/About/about';
-import Resume from './components/Resume/resumeList'
-import Works from './components/Works/works';
-import Contact from './components/Contact/contact';
-import Footer from './components/Footer/footer';
-
-import ScrollSpy from "react-ui-scrollspy";
 
 function App() {
 

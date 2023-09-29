@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Lightbox from "yet-another-react-lightbox";
 import { ImageListItem, Box, Typography } from '@mui/material';
 import './lightBox.css'
 
-const LightBox = ({src, desc, dataSet}) => {
+const LightBox = ({src, desc}) => {
 
     const BoxStyle = {
-        width: 550, 
+        width: 'auto', 
         backgroundColor: 'transparent', 
         borderColor: 'transparent', 
         boxShadow: 'none', 
@@ -18,22 +18,22 @@ const LightBox = ({src, desc, dataSet}) => {
             backgroundColor: '#f0f0f0'
         },
     }
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
 
     return (
         <Box component={'button'} onClick={setOpen} sx={BoxStyle}>
             <ImageListItem>
                 <img
                     alt={desc}
-                    src={src}
+                    src={process.env.PUBLIC_URL + src}
                     loading="lazy"
                     />
-                <Typography variant='h5' mt={4} color={'#000'}>{desc}</Typography>
+                <Typography variant='subtitle2' mt={4} color={'#000'}>{desc}</Typography>
             </ImageListItem>
             <Lightbox
                 open={open}
                 close={() => setOpen(false)}
-                slides={[{src: src}]}
+                slides={[{src: process.env.PUBLIC_URL + src}]}
             />
         </Box>
     )

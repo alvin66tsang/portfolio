@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { AppBar, Box, Stack, Link, Typography } from '@mui/material';
+import data from '../../data/data.json'
 
-const menuList = ['home', 'about', 'resume', 'works', 'contact']
+const menuList = data.menuList
 
 const TypographyStyles = {
     textTransform: 'capitalize',
@@ -31,13 +32,13 @@ const NavBar = ({ setElement }) => {
     }
 
     return (
-        <AppBar sx={AppBarStyles} component="nav" position='static'>
+        <AppBar sx={AppBarStyles} component="nav">
             <Stack direction={'row'} spacing={4} sx={StackStyles}>
                 {
                     menuList.map((item, idx) => {
                         return (
-                            <Box component={'div'} onClick={setActive} value={item} key={item} data-to-scrollspy-id={item} color={isActive? '#fff' : '#000'}>
-                                <Link key={idx} href={'#' + item} underline={'none'}>
+                            <Box component={'div'} onClick={setActive} value={item} key={item} data-to-scrollspy-id={item} color={isActive? '#fff' : '#000'} sx={{ cursor: 'pointer' }}>
+                                <Link key={idx} underline={'none'}>
                                     <Typography variant="subtitle1" sx={TypographyStyles}>
                                         {item}
                                     </Typography>
