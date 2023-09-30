@@ -1,4 +1,4 @@
-# A portfolio about myself!
+# A portfolio of Myself !
 
 # How to use !!
 
