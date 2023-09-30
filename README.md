@@ -20,5 +20,5 @@ $ yarn
 # Start the development server
 $ yarn start
 
-## Authors
+# Authors
 Alvin - https://github.com/alvin66tsang
