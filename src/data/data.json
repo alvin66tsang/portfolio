@@ -38,9 +38,11 @@
             "subtitle": "Web developer, Asia",
             "range": "Aug 2022 - Feb 2023",
             "descriptions": [
-                "Spearheaded the development of the Product Management System, contributing to improved productivity and workflow efficiency.",
-                "Successfully maintained and optimized WordPress websites, ensuring seamless functionality and engaging user experiences.",
-                "Developed a Cargo Registration Service using React, delivering a user-centric and responsive platform."
+                "Assisted in the development and design of the Product Management web platform.",
+                "Developed and maintained the WordPress website.",
+                "Collaborated with the team to identify and resolve users' feedback.",
+                "Involved in React and PHP web applications with Ant design UI framework.",
+                "Assisted in the development of REST APIs to improve functionality and increase user satisfaction."
             ]
         },
         {
@@ -49,10 +51,11 @@
             "subtitle": "Full Stack Programmer, Asia",
             "range": "May 2021 - Aug 2022",
             "descriptions": [
-                "Collaborated within agile scrum teams to design, develop, and implement accessible and responsive user interfaces for a Human Resource Management System.",
-                "Led the successful revamp of Employee Self-Service from Angular 1.5 to Angular 11, enhancing overall system performance.",
-                "Contributed to large-scale projects for esteemed clients, including the Agricultural Bank of China, HKEAA, Great Eagle, and R&D initiatives.",
-                "Developed the HR Management System and Project Management System using C#, .NET Core, MySQL, and ISAM database, streamlining operations and data management.​"
+                "Diagnosed and troubleshooted different websites of the company's critical clients.",
+                "Participated in stand-ups 2 times a month, reviewed and assigned by the team leader.",
+                "Revamped the existing web applications to Angular 11.",
+                "Contributed to large-scale projects for esteemed clients, including the Agricultural Bank of China, HKEAA, Great Eagle, and R&D initiatives.​",
+                "Developed and maintained responsive web applications using Angular, C#, and ISAM."
             ]
         },
         {
@@ -61,10 +64,10 @@
             "subtitle": "Technical IT supporting, Asia",
             "range": "Sep 2019 - Apr 2021",
             "descriptions": [
-                "Delivered comprehensive reports to various departments, providing data-driven insights for informed decision-making.",
-                "Managed and optimized the ZohoCRM system, enhancing organization and utilization of customer information.",
-                "Utilized Power BI and Google Data Studio to create informative graphs and charts based on data from ZohoCRM.",
-                "Created user interfaces by applying standard HTML/CSS practices for an enhanced website experience.​"
+                "Conducted assistance and resolved clients' technical issues.",
+                "Managed and optimized the customer information in Zoho CRM.",
+                "Generated informative charts and graphs for the team leader using Power BI and Google Data Studio.",
+                "Implemented new functions and optimized website performance to improve user experience.​"
             ]
         },
         {
@@ -73,9 +76,9 @@
             "subtitle": "Internship Programmer, Asia",
             "range": "Sep 2018 - Jun 2019",
             "descriptions": [
-                "Supported the maintenance and development of a Hybrid application using Angular and Ionic, ensuring seamless functionality and user satisfaction.",
-                "Assisted in connecting web sockets from hardware devices to display data within the application, optimizing data presentation.",
-                "Developed an iOS application for bulk RFID tag scanning, providing an efficient solution for mobile data access."
+                "Supported, Maintained and development of a Hybrid application using Angular and Ionic.",
+                "Assisted in connecting web sockets from hardware devices to display data within the application.",
+                "Developed an iOS application for bulk RFID tag scanning, provided real time data transfer."
             ]
         },
         {
@@ -84,9 +87,9 @@
             "subtitle": "Internship Programmer, Asia",
             "range": "Sep 2018 - Jun 2019",
             "descriptions": [
-                "Demonstrated exceptional coordination and planning skills, achieving results according to set schedules.",
-                "Designed and built a booking searching Android application, ensuring a user-friendly experience.",
-                "Integrated Android applications with MAD glass, showcasing a commitment to innovative technologies."
+                "Learned and applied new technologies and assisted in developing with Android studio.",
+                "Designed and built a booking searching Android application connecting to the MAD glass.",
+                "Identified and resolved software issue with debugging techniques."
             ]
         }
     ],
