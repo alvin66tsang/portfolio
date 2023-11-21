@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4004d64a.css",
-    "main.js": "/portfolio/static/js/main.2bef9a64.js",
+    "main.js": "/portfolio/static/js/main.23e84acf.js",
     "static/media/backgroundImg.jpg": "/portfolio/static/media/backgroundImg.4e0f1388d9b6d87d0b1f.jpg",
     "static/media/wallpaper.jpg": "/portfolio/static/media/wallpaper.295f7d808db0f4f1266c.jpg",
     "static/media/Resume_of_Alvin_Tsang.pdf": "/portfolio/static/media/Resume_of_Alvin_Tsang.1103bcb13c87adb6099e.pdf",
@@ -64,10 +64,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/portfolio/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/portfolio/index.html",
     "main.4004d64a.css.map": "/portfolio/static/css/main.4004d64a.css.map",
-    "main.2bef9a64.js.map": "/portfolio/static/js/main.2bef9a64.js.map"
+    "main.23e84acf.js.map": "/portfolio/static/js/main.23e84acf.js.map"
   },
   "entrypoints": [
     "static/css/main.4004d64a.css",
-    "static/js/main.2bef9a64.js"
+    "static/js/main.23e84acf.js"
   ]
 }
