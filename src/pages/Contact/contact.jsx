@@ -36,7 +36,7 @@ const Contact = () => {
         {
             icon: <LinkedIn />,
             title: 'LinkedIn',
-            value: 'https://www.linkedin.com/in/alvin-tsang-4467771a8/'
+            value: 'https://www.linkedin.com/in/at0606'
         },
         {
             icon: <GitHub />,

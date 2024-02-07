@@ -1,12 +1,8 @@
-import { useEffect, useState } from 'react';
-import NavBar from './components/Navbar/navbar'
-import Intro from './components/Intro/intro';
-import About from './components/About/about';
-import Resume from './components/Resume/resumeList'
-import Works from './components/Works/works';
-import Contact from './components/Contact/contact';
-import Footer from './components/Footer/footer';
-import ScrollSpy from "react-ui-scrollspy";
+import React, { useState } from 'react';
+import Grid from '../../components/Grid/grid'
+import Taskbar from '../../components/Taskbar/taskBar';
+import Home from '../Home/home';
+import Window from '../../components/Window/window';
 
 import './App.css';
 import '@fontsource/roboto/300.css';
@@ -16,25 +12,28 @@ import '@fontsource/roboto/700.css';
 
 import "yet-another-react-lightbox/styles.css";
 
-
 function App() {
 
-  const [element, setElement] = useState('home')
+  const [state, setState] = useState({
+    close: false,
+    fullScreen: true,
+    component: <Home />
+  });
 
-  useEffect(() => {
-    document.querySelector(`#${element}`).scrollIntoView({ block: 'start',  behavior: 'smooth' })
-  }, [element])
+  const dialogOptions = (option) => {
+    setState((prev) => ({ ...prev, [option]: !prev[option] }));
+  };
+
+  const setSection = (section) => {
+    setState((prev) => ({...prev, close: !prev.close, component: <Home cp={section} />}));
+  }
 
   return (
-    <ScrollSpy scrollThrottle={100}>
-      <NavBar setElement={setElement}></NavBar>
-      <Intro id="home"></Intro>
-      <About id="about"></About>
-      <Resume id="resume"></Resume>
-      <Works id="works"></Works>
-      <Contact id="contact"></Contact>
-      <Footer></Footer>
-    </ScrollSpy>
+    <>
+      <Grid dialogOptions={dialogOptions} setSection={setSection}></Grid>
+      <Window title={'About Me'} width={1000} height={700} x={'center'} y={100} background={'#202020'} component={state.component} dialogOptions={dialogOptions} hidden={state.close} />
+      {/* <Taskbar setSection={setSection} /> */}
+    </>
   );
 }
 

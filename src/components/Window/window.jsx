@@ -32,8 +32,8 @@ const Window = ({ title, width, height, x, y, background, icon, component, dialo
                     <></> :
                     <WinBox
                         title={title}
-                        width={screenSize.width < 1080? 499 : width}
-                        height={screenSize.height < 720? 500 : height}
+                        width={screenSize.width}
+                        height={screenSize.height}
                         x={x}
                         y={y}
                         noFull={true}
