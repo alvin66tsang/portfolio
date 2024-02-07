@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Button, Typography } from '@mui/material';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import profilePic from '../../assets/profile.webp'
-import resume from '../../assets/Resume_of_Alvin_Tsang.pdf'
+import resume from '../../assets/Resume_Alvin_Tsang.pdf'
 
 const About = () => {
 
