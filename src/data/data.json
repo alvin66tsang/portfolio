@@ -34,40 +34,39 @@
     "workList": [
         {
             "type": "Work",
+            "title": "AAS Education Consultancy (Freelance)",
+            "subtitle": "Web Developer, Asia",
+            "range": "Sep 2019 - Present",
+            "descriptions": [
+                "Conducted assistance and resolved clients' technical issues.",
+                "Managed and optimized the customer information in Zoho CRM.",
+                "Generated informative charts and graphs for the team leader using Power BI and Google Data Studio.",
+                "Proficient in using Git rebase for history cleanup and branch updates, leading to a more coherent commit history​"
+            ]
+        },
+        {
+            "type": "",
             "title": "Rich Fame International Limited",
-            "subtitle": "Web developer, Asia",
+            "subtitle": "Web Developer, Asia",
             "range": "Aug 2022 - Feb 2023",
             "descriptions": [
-                "Assisted in the development and design of the Product Management web platform.",
-                "Developed and maintained the WordPress website.",
-                "Collaborated with the team to identify and resolve users' feedback.",
-                "Involved in React and PHP web applications with Ant design UI framework.",
-                "Assisted in the development of REST APIs to improve functionality and increase user satisfaction."
+                "Built a single web page of a cargo online application system for internal use to replace hand-written legacy to store shipment details using React, Redux, Ant Design, CSS",
+                "Maintain Wordpress website using PHP 7.2, Wordpress 6.1.1, WP Engine by ensuring uptime, fixing bugs and modifying custom theme",
+                "Involved and built a webpage for a Product management system (PMS) using Vue and PHP 5.6",
+                "Integrate RESTful APIs for data retrieval and manipulation within Vue and React applications"
             ]
         },
         {
             "type": "",
             "title": "Flexsystem",
-            "subtitle": "Full Stack Programmer, Asia",
+            "subtitle": "Full Stack Developer, Asia",
             "range": "May 2021 - Aug 2022",
             "descriptions": [
-                "Diagnosed and troubleshooted different websites of the company's critical clients.",
-                "Participated in stand-ups 2 times a month, reviewed and assigned by the team leader.",
-                "Revamped the existing web applications to Angular 11.",
-                "Contributed to large-scale projects for esteemed clients, including the Agricultural Bank of China, HKEAA, Great Eagle, and R&D initiatives.​",
-                "Developed and maintained responsive web applications using Angular, C#, and ISAM."
-            ]
-        },
-        {
-            "type": "",
-            "title": "AAS Education Consultancy",
-            "subtitle": "Technical IT supporting, Asia",
-            "range": "Sep 2019 - Apr 2021",
-            "descriptions": [
-                "Conducted assistance and resolved clients' technical issues.",
-                "Managed and optimized the customer information in Zoho CRM.",
-                "Generated informative charts and graphs for the team leader using Power BI and Google Data Studio.",
-                "Implemented new functions and optimized website performance to improve user experience.​"
+                "Revamped an existing Angular 1.5 web application to Angular 11 in production for esteemed clients, including the Agricultural Bank of China, HKEAA, Great Eagle, and R&D initiatives",
+                "Maintained Angular web applications using Angular, Bootstrap 4, C# and ISAM",
+                "Responsible for building the web layout of a Customer Relationship Management (CRM) using ASP.NET MVC 5, HTML, CSS, jQuery and Entity Framework",
+                "Modernized design and reduced bugs on many Angular widgets​",
+                "Implementing CSS3 Grid and Flexbox layouts to create complex and responsive page designs"
             ]
         },
         {
@@ -112,7 +111,7 @@
             "ASP.NET MVC",
             "Node.js",
             "Express",
-            "RESTful",
+            "RESTful APIs",
             "MongoDB",
             "MySQL",
             "MS Office",

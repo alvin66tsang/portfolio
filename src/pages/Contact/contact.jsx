@@ -31,7 +31,7 @@ const Contact = () => {
         {
             icon: null,
             title: 'Address',
-            value: 'Mississauga, Ontario, Canada'
+            value: 'Toronto, Ontario, Canada'
         },
         {
             icon: <LinkedIn />,
