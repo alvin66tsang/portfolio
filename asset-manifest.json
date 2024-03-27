@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.af11652c.css",
-    "main.js": "/portfolio/static/js/main.eb0c2434.js",
-    "static/media/backgroundImg.jpg": "/portfolio/static/media/backgroundImg.4e0f1388d9b6d87d0b1f.jpg",
-    "static/media/Resume_Alvin_Tsang.pdf": "/portfolio/static/media/Resume_Alvin_Tsang.2be629ebf4a0e76322c9.pdf",
+    "main.js": "/portfolio/static/js/main.accb8375.js",
+    "static/media/backgroundImg.jpg": "/portfolio/static/media/backgroundImg.f50c8af6ac28c0f683e3.jpg",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.40fdbb15b469d2dd8c02.jpeg",
+    "static/media/Resume_of_Alvin_Tsang.pdf": "/portfolio/static/media/Resume_of_Alvin_Tsang.14756b7e8ecd1727a8b4.pdf",
     "static/media/roboto-latin-500-normal.woff2": "/portfolio/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/portfolio/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/portfolio/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -52,7 +53,6 @@
     "static/media/roboto-vietnamese-400-normal.woff": "/portfolio/static/media/roboto-vietnamese-400-normal.e0e8ba725ebd107367a8.woff",
     "static/media/roboto-vietnamese-500-normal.woff": "/portfolio/static/media/roboto-vietnamese-500-normal.657896dad292ee9a0a0a.woff",
     "static/media/roboto-vietnamese-700-normal.woff": "/portfolio/static/media/roboto-vietnamese-700-normal.4df79f684fcbca8386bd.woff",
-    "static/media/profile.webp": "/portfolio/static/media/profile.48887fdbd06bb1a1686d.webp",
     "static/media/roboto-greek-ext-500-normal.woff2": "/portfolio/static/media/roboto-greek-ext-500-normal.6fb9cffb1d3e72bf9293.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/portfolio/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-300-normal.woff2": "/portfolio/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
@@ -63,10 +63,10 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/portfolio/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/portfolio/index.html",
     "main.af11652c.css.map": "/portfolio/static/css/main.af11652c.css.map",
-    "main.eb0c2434.js.map": "/portfolio/static/js/main.eb0c2434.js.map"
+    "main.accb8375.js.map": "/portfolio/static/js/main.accb8375.js.map"
   },
   "entrypoints": [
     "static/css/main.af11652c.css",
-    "static/js/main.eb0c2434.js"
+    "static/js/main.accb8375.js"
   ]
 }
