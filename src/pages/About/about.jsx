@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, Button, Typography } from '@mui/material';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
-import profilePic from '../../assets/profile.webp'
-import resume from '../../assets/Resume_Alvin_Tsang.pdf'
+import profilePic from '../../assets/profile.jpeg'
+import resume from '../../assets/Resume_of_Alvin_Tsang.pdf'
 
 const About = () => {
 
@@ -18,9 +18,9 @@ const About = () => {
   }
 
   const ImgStyle = {
-    width: 150,
-    height: 150,
-    borderRadius: 50
+    width: 200,
+    height: "auto",
+    borderRadius: 10
   }
 
   const ContentStyle = {

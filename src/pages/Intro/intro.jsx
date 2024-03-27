@@ -29,8 +29,8 @@ const Intro = () => {
     return (
         <Box sx={BoxStyles} id={'home'}>
             <Typography variant='h2'>Alvin Tsang</Typography>
-            <Typography variant='subtitle1' width={'75%'} sx={SubtitleStyles}>
-                I'm a Toronto-based <strong style={{ color: '#ffffff', fontSize: '1.5rem' }}>Front-End / Web Developer</strong>. I am an enthusiastic individual who thrives on challenges,
+            <Typography variant='subtitle1' width={'50%'} sx={SubtitleStyles}>
+                I'm a Toronto-based <strong style={{ color: '#ffffff', fontSize: '1.5rem', fontWeight: 500 }}>Front-End / Web Developer</strong>. I am an enthusiastic individual who thrives on challenges,
                 embraces rapid learning, and is dedicated to continuously enhancing my coding skills.
             </Typography>
         </Box>

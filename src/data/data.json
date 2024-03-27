@@ -34,56 +34,57 @@
     "workList": [
         {
             "type": "Work",
-            "title": "AAS Education Consultancy (Freelance)",
-            "subtitle": "Web Developer, Asia",
+            "title": "AAS Education Consultancy",
+            "subtitle": "Freelance Web Developer, Hong Kong",
             "range": "Sep 2019 - Present",
             "descriptions": [
-                "Modernized design and mobile responsive web layout with Bootstrap 5, HTML, CSS, Javascript",
-                "Optimized webpage loading speed by 25% using AWS CloudFront",
-                "Generated informative charts and graphs for the team leader using Power BI and Google Data Studio with ZohoCRM data",
-                "Proficient in using Git rebase for history cleanup and branch updates, leading to a more coherent commit history​"
+                "Achieved modernized design and mobile-responsive web layout utilizing Bootstrap 5, HTML, CSS, and JavaScript, while optimizing webpage loading speed from 30 seconds to 5 seconds",
+                "Implemented integration of an online application form with Zoho CRM, enhancing registration efficiency and reducing data entry time",
+                "Formulated a standardized workflow in Jira and Git to enhance collaboration among internal and external teams​"
             ]
         },
         {
             "type": "",
             "title": "Rich Fame International Limited",
-            "subtitle": "Web Developer, Asia",
+            "subtitle": "Web Developer, Hong Kong",
             "range": "Aug 2022 - Feb 2023",
             "descriptions": [
-                "Built a single web page of a cargo online application system for internal use to replace handwritten legacy to store shipment details using React, Redux, Ant Design",
-                "Maintain Wordpress website using PHP 7.2, Wordpress 6.1.1, WP Engine by ensuring uptime, fixing bugs and modifying custom theme",
-                "Involved and built a webpage for a Product management system (PMS) using React, Material UI and PHP 5.6",
-                "Integrate RESTful APIs for data retrieval and manipulation within React applications"
+                "Designed and developed a single web page for an internal cargo application system, effectively replacing legacy handwritten methods and streamlining the storage of shipment details",
+                "Partnered with one designer and one developer to construct a platform enabling the company to effectively promote products and services",
+                "Contributed as a key member of a team comprising one designer and one developer to develop web-based systems, encompassing a Product Management System and a Web API Service",
+                "Enhanced a PHP-based platform to implement advanced filtering capabilities, significantly reducing record import time from 1 second to 0.1 second"
             ]
         },
         {
             "type": "",
             "title": "Flexsystem",
-            "subtitle": "Full Stack Developer, Asia",
+            "subtitle": "Full Stack Developer, Hong Kong",
             "range": "May 2021 - Aug 2022",
             "descriptions": [
-                "Revamped an existing Angular 1.5 web application to Angular 11 in production for esteemed clients, including the Agricultural Bank of China, HKEAA, Great Eagle, and R&D initiatives",
-                "Maintained Angular web applications using Angular, Bootstrap 4, C#, and ISAM",
-                "Responsible for building the web layout of a Customer Relationship Management (CRM) using ASP.NET MVC 5, HTML, CSS, jQuery, Bootstrap 4 and Entity Framework",
-                "Modernized design and reduced bugs on many Angular widgets​",
-                "Implementing CSS3 Grid and Flexbox layouts to create complex and responsive page designs"
+                "Optimized and performance enhancement initiatives by transitioning an existing Angular 1.5 web application to Angular 11 in production, ensuring heightened compatibility and satisfaction for esteemed clients",
+                "Led the development of a web-based custom relationship management system, facilitating quoting and recording processes for customers while providing real-time property pricing information",
+                "Implemented CSS3 Grid and Flexbox layouts to modernize design and minimize bugs across numerous Angular widgets, resulting in the creation of intricate and responsive page designs"
             ]
         },
         {
             "type": "",
             "title": "Boxland Hong Kong Limited",
-            "subtitle": "Internship Programmer, Asia",
+            "subtitle": "Internship Programmer, Hong Kong",
             "range": "Sep 2018 - Jun 2019",
             "descriptions": [
-                "Built a responsive web application for stock management using Angular 8 with Ionic framework and integrated with RESTful APIs and web sockets for data retrieval",
-                "Developed an iOS application for bulk RFID tag scanning, and provided real-time data transfer using XCode and Integrated for RFID gun library"
+                "Built a cross-platform mobile applications tailored for internal use within ISA, streamlining inventory management processes and minimize human error",
+                "Developed an iOS application support bulk RFID tag scanning enabling real-time data storage directly into the inventory system, significantly decreased the time required for both data entry and scanning procedures"
             ]
         }
     ],
     "skillsList": {
         "type": "Skills",
         "skills": [
-            "HTML", "CSS", "Javascript", "Typescript", "Angular 11+", "React", "Redux", "NodeJS", "C#", "Linq", "MySQL", "MongoDB", "RESTful APIs", "Material UI", "Bootstrap", "jQuery", "Git"
+            "PHP", "C#", "HTML", "CSS", "Javascript", "Typescript", "Python",
+            "Laravel", ".NET Core", "JQuery", "React", "Redux", "Angular", "Node.js",
+            "MySQL", "MongoDB", "ISAM",
+            "AWS",
+            "Jira", "Git", "TortoiseSVN", "CI/CD"
         ]
     }
 }
