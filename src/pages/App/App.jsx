@@ -26,7 +26,7 @@ function App() {
   }, [element])
 
   return (
-    <ScrollSpy scrollThrottle={100}>
+    <ScrollSpy scrollThrottle={50}>
       <NavBar setElement={setElement}></NavBar>
       <Intro id="home"></Intro>
       <About id="about"></About>

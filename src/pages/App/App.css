@@ -2,7 +2,6 @@
 html, body {
     padding: 0;
     margin: 0;
-    /* scroll-padding-top: 7%; */
     /* scroll-behavior: smooth; */
     ::-webkit-scrollbar{
         display: none;

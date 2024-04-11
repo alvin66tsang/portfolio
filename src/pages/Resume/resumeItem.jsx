@@ -7,17 +7,20 @@ const ResumeItem = ({ type, title, subtitle, range, descriptions }) => {
         display: 'flex',
         flexDirection: 'column',
         justifySelf: 'start',
+        '@media only screen and (max-width: 700px)': {
+            alignItems: 'center'
+        }
     }
 
     const subtitleBoxStyle = {
         display: 'flex',
         flexDirection: 'row',
-        width: 400,
+        width: 300,
         flexWrap: 'wrap',
+        justifyContent: 'space-between',
         '@media only screen and (max-width: 700px)': {
-            width: 150
-        },
-        justifyContent: 'space-between'
+            justifyContent: 'center'
+        }
     }
 
     const ListStyle = {
@@ -25,17 +28,20 @@ const ResumeItem = ({ type, title, subtitle, range, descriptions }) => {
         pl: 2,
         '& .MuiListItem-root': {
             display: 'list-item',
+        },
+        '@media only screen and (max-width: 700px)': {
+            pl: 4
         }
     }
 
     return (
         <Grid container spacing={{ xs: 4, md: 2 }} columns={12} py={2}>
-            <Grid item xs={4} sm={4} md={4}>
+            <Grid item xs={12} sm={12} md={4}>
                 {
-                    type ? <Typography variant='h5' align='center' fontWeight={500}>{type}</Typography> : <></>
+                    type ? <Typography variant='h4' align='center' fontWeight={500}>{type}</Typography> : <></>
                 }
             </Grid>
-            <Grid item sx={itemBoxStyle} xs={8} sm={8} md={8}>
+            <Grid item sx={itemBoxStyle} xs={12} sm={12} md={8}>
                 <Typography variant='h5' fontWeight={500}>{title}</Typography>
 
                 <Box sx={subtitleBoxStyle}>

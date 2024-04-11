@@ -1,8 +1,9 @@
 import React from 'react'
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Button, Typography, Link } from '@mui/material';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import profilePic from '../../assets/profile.jpeg'
 import resume from '../../assets/Resume_of_Alvin_Tsang.pdf'
+import { LinkedIn } from '@mui/icons-material';
 
 const About = () => {
 
@@ -15,12 +16,16 @@ const About = () => {
     justifyItems: 'center',
     alignItems: 'center',
     gap: 0,
+    '@media only screen and (max-width: 700px)': {
+      display: 'flex',
+      my: 6
+    },
   }
 
   const ImgStyle = {
     width: 200,
     height: "auto",
-    borderRadius: 10
+    borderRadius: 10,
   }
 
   const ContentStyle = {
@@ -40,18 +45,33 @@ const About = () => {
 
   const ButtonStyle = {
     color: '#37B1D3',
+    width: '100%'
+  }
+
+  const ATagStyle = {
+    width: 200,
+    '@media only screen and (max-width: 700px)': {
+      width: '100%'
+    },
   }
 
   return (
     <>
-      <Box sx={BoxStyles} id='about'>
+      <Box sx={BoxStyles} id='about' >
         <Box component={'img'} src={profilePic} sx={ImgStyle} />
         <Box sx={ContentStyle}>
           <Typography variant='h4'>About me</Typography>
-          <Typography variant='body' sx={IntroStyle}>Hello, my name is Alvin and I am a Front-End Developer based in Toronto. With 3 years of experience, specializing in developing and implementing high-performance web applications using cutting-edge technologies. Expertise in front-end and back-end development, with a focus on optimizing performance, enhancing user experience, and delivering robust, reliable software solutions. Proficient in working with established and emerging frameworks and platforms such as JavaScript, TypeScript, Node.js, Express, Angular, and React.</Typography>
-          <a href={resume} target='_blank' rel="noopener noreferrer">
-            <Button variant='outlined' size={'small'} sx={ButtonStyle} endIcon={<InsertDriveFileIcon />}>Download Resume</Button>
-          </a>
+          <Typography variant='body' sx={IntroStyle}>Experienced web developer skilled in building websites and applications. With expertise in various technologies
+            like HTML, CSS, JavaScript, and frameworks such as Angular and React, I focus on creating modern designs and
+            improving website performance. I enjoy collaborating with teams to deliver high-quality projects that meet client
+            needs. Always eager to learn and stay updated with industry trends, I strive to bring innovation to every project.
+          </Typography>
+          <Link href={resume} target='_blank' rel="noopener noreferrer" sx={ATagStyle}>
+            <Button variant='outlined' sx={ButtonStyle} endIcon={<InsertDriveFileIcon />}>Download Resume</Button>
+          </Link>
+          <Link href={'https://www.linkedin.com/in/at0606'} sx={ATagStyle}>
+            <Button variant='outlined' sx={ButtonStyle} endIcon={<LinkedIn />}>LinkedIn</Button>
+          </Link>
         </Box>
       </Box>
     </>
