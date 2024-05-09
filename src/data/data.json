@@ -33,17 +33,6 @@
     ],
     "workList": [
         {
-            "type": "Work",
-            "title": "AAS Education Consultancy",
-            "subtitle": "Freelance Web Developer, Hong Kong",
-            "range": "Sep 2019 - Present",
-            "descriptions": [
-                "Achieved modernized design and mobile-responsive web layout utilizing Bootstrap 5, HTML, CSS, and JavaScript, while optimizing webpage loading speed from 30 seconds to 5 seconds",
-                "Implemented integration of an online application form with Zoho CRM, enhancing registration efficiency and reducing data entry time",
-                "Formulated a standardized workflow in Jira and Git to enhance collaboration among internal and external teams​"
-            ]
-        },
-        {
             "type": "",
             "title": "Rich Fame International Limited",
             "subtitle": "Web Developer, Hong Kong",
@@ -64,6 +53,17 @@
                 "Optimized and performance enhancement initiatives by transitioning an existing Angular 1.5 web application to Angular 11 in production, ensuring heightened compatibility and satisfaction for esteemed clients",
                 "Led the development of a web-based custom relationship management system, facilitating quoting and recording processes for customers while providing real-time property pricing information",
                 "Implemented CSS3 Grid and Flexbox layouts to modernize design and minimize bugs across numerous Angular widgets, resulting in the creation of intricate and responsive page designs"
+            ]
+        },
+        {
+            "type": "Work",
+            "title": "AAS Education Consultancy",
+            "subtitle": "Web Developer, Hong Kong",
+            "range": "Sep 2019 - Apr 2021",
+            "descriptions": [
+                "Achieved modernized design and mobile-responsive web layout utilizing Bootstrap 5, HTML, CSS, and JavaScript, while optimizing webpage loading speed from 30 seconds to 5 seconds",
+                "Implemented integration of an online application form with Zoho CRM, enhancing registration efficiency and reducing data entry time",
+                "Formulated a standardized workflow in Jira and Git to enhance collaboration among internal and external teams​"
             ]
         },
         {

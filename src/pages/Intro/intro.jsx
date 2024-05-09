@@ -33,7 +33,7 @@ const Intro = () => {
         <Box sx={BoxStyles} id={'home'}>
             <Typography variant='h2'>Alvin Tsang</Typography>
             <Typography variant='subtitle1' sx={SubtitleStyles}>
-                I'm a Toronto-based <strong style={{ color: '#ffffff', fontSize: '1.5rem', fontWeight: 500 }}>Front-End / Web Developer</strong>. I am an enthusiastic individual who thrives on challenges,
+                I'm a Mississauga-based <strong style={{ color: '#ffffff', fontSize: '1.5rem', fontWeight: 500 }}>Front-End / Web Developer</strong>. I am an enthusiastic individual who thrives on challenges,
                 embraces rapid learning, and is dedicated to continuously enhancing my coding skills.
             </Typography>
         </Box>
